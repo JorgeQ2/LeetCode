@@ -11,10 +11,19 @@ namespace LeetCode.Tests
     [TestClass()]
     public class RemoveElementsTests
     {
+        
         [TestMethod()]
         public void RemoveElementTest()
         {
-            Assert.Fail();
+            int[] nums = [3, 2, 2, 3];
+            int[] expected = [2, 2];
+            int val = 3;
+            RemoveElements leet = new();
+            int k = leet.RemoveElement(nums, val);
+            Array.Sort(nums, 0, k);
+            Assert.AreEqual(2, k);
+
+            CollectionAssert.AreEqual(nums[0..k], expected);
         }
     }
 }
