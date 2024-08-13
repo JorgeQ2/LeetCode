@@ -1,7 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-
-namespace LeetCodeTest
+namespace LeetCode.Test
 {
     [TestClass]
     public class UnitTest1
