@@ -22,12 +22,12 @@ namespace LeetCode
                     stored = num;
                 }
                 //updating count basically if else
-                count += (num == stored) ? 1 : -1;
+                count += num == stored ? 1 : -1;
             }
             //returns majority
             return stored;
 
-            //545
+
 
 
         }
