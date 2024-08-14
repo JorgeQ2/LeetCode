@@ -1,17 +1,16 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LeetCode;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Tests
+namespace LeetCode.Test
 {
     [TestClass()]
     public class RemoveElementsTests
     {
-        
+
         [TestMethod()]
         public void RemoveElementTest()
         {
