@@ -10,8 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="HashMapTest\**" />
     <Compile Remove="TwoPointer.Test\**" />
+    <EmbeddedResource Remove="HashMapTest\**" />
     <EmbeddedResource Remove="TwoPointer.Test\**" />
+    <None Remove="HashMapTest\**" />
     <None Remove="TwoPointer.Test\**" />
   </ItemGroup>
 
@@ -28,10 +31,6 @@
 
   <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="HashMapTest\" />
   </ItemGroup>
 
 </Project>

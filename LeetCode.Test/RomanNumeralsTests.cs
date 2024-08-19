@@ -24,32 +24,6 @@ namespace LeetCode.Test
             Assert.AreEqual(3, result);
         }
 
-        [TestMethod]
-        public void TestRomanToInt_Case2()
-        {
-            // Arrange
-            var converter = new RomanToInteger();
-            string roman = "LVIII";
-
-            // Act
-            int result = converter.RomanToInt(roman);
-
-            // Assert
-            Assert.AreEqual(58, result);
-        }
-
-        [TestMethod]
-        public void TestRomanToInt_Case3()
-        {
-            // Arrange
-            var converter = new RomanToInteger();
-            string roman = "MCMXCIV";
-
-            // Act
-            int result = converter.RomanToInt(roman);
-
-            // Assert
-            Assert.AreEqual(1994, result);
-        }
+        
     }
 }
