@@ -33,4 +33,8 @@
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="LinkedList\" />
+  </ItemGroup>
+
 </Project>
