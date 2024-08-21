@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Test
+namespace LeetCode.Test.Day1
 {
     [TestClass()]
     public class MergeSortedArrayTests
