@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace LeetCode.BinaryTree.Tests
 {
     [TestClass]
-    public class SolutionTests
+    public class SolutionTests1
     {
         [TestMethod]
         public void IsSameTree_Test1()
