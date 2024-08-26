@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace LeetCode.BinaryTree
 {
-    public class TreeNode
+    public class TreeNode1
     {
         public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
+        public TreeNode1 left;
+        public TreeNode1 right;
+        public TreeNode1(int val = 0, TreeNode1 left = null, TreeNode1 right = null)
         {
             this.val = val;
             this.left = left;
@@ -19,10 +19,9 @@ namespace LeetCode.BinaryTree
         }
     }
 
-
     public class SameTree
     {
-        public bool IsSameTree(TreeNode p, TreeNode q)
+        public bool IsSameTree(TreeNode1 p, TreeNode1 q)
         {
             if (p == null ^ q == null)
             {
@@ -38,6 +37,3 @@ namespace LeetCode.BinaryTree
         }
     }
 }
- 
-
-

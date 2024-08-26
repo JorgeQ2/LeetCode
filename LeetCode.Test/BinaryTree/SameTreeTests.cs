@@ -16,8 +16,8 @@ namespace LeetCode.BinaryTree.Tests
         {
             // Arrange
             var solution = new SameTree();
-            var p = new TreeNode(1) { left = new TreeNode(2), right = new TreeNode(3) };
-            var q = new TreeNode(1) { left = new TreeNode(2), right = new TreeNode(3) };
+            var p = new TreeNode1(1) { left = new TreeNode1(2), right = new TreeNode1(3) };
+            var q = new TreeNode1(1) { left = new TreeNode1(2), right = new TreeNode1(3) };
 
             // Act
             bool result = solution.IsSameTree(p, q);
@@ -31,8 +31,8 @@ namespace LeetCode.BinaryTree.Tests
         {
             // Arrange
             var solution = new SameTree();
-            var p = new TreeNode(1) { left = new TreeNode(2) };
-            var q = new TreeNode(1) { right = new TreeNode(2) };
+            var p = new TreeNode1(1) { left = new TreeNode1(2) };
+            var q = new TreeNode1(1) { right = new TreeNode1(2) };
 
             // Act
             bool result = solution.IsSameTree(p, q);
@@ -46,8 +46,8 @@ namespace LeetCode.BinaryTree.Tests
         {
             // Arrange
             var solution = new SameTree();
-            var p = new TreeNode(1) { left = new TreeNode(2), right = new TreeNode(1) };
-            var q = new TreeNode(1) { left = new TreeNode(1), right = new TreeNode(2) };
+            var p = new TreeNode1(1) { left = new TreeNode1(2), right = new TreeNode1(1) };
+            var q = new TreeNode1(1) { left = new TreeNode1(1), right = new TreeNode1(2) };
 
             // Act
             bool result = solution.IsSameTree(p, q);
