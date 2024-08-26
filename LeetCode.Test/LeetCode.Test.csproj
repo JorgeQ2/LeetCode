@@ -11,10 +11,13 @@
 
   <ItemGroup>
     <Compile Remove="HashMapTest\**" />
+    <Compile Remove="LinkedList\**" />
     <Compile Remove="TwoPointer.Test\**" />
     <EmbeddedResource Remove="HashMapTest\**" />
+    <EmbeddedResource Remove="LinkedList\**" />
     <EmbeddedResource Remove="TwoPointer.Test\**" />
     <None Remove="HashMapTest\**" />
+    <None Remove="LinkedList\**" />
     <None Remove="TwoPointer.Test\**" />
   </ItemGroup>
 
@@ -31,10 +34,6 @@
 
   <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="LinkedList\" />
   </ItemGroup>
 
 </Project>
