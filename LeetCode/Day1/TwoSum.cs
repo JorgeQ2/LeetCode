@@ -4,28 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Day1
+namespace LeetCode
 {
-    public class TwoSums
+    //https://leetcode.com/problems/two-sum/
+    public class TwoSumLeet
     {
-        public int[] TwoSum(int[] nums, int target)
+        public int[] TwoSum(int[] input, int sum)
         {
-            HashSet<int> set = new HashSet<int>();
-            //used for loop
-            for (int i = 0; i < nums.Length; i++)
+            Dictionary<int, int> map = new Dictionary<int, int>();
+            for (int i = 0; i < input.Length; i++)
             {
-                int complement = target - nums[i];
-                //check for compliment
-                if (set.Contains(complement))
-                {
-                    //if exist we return 
-                    return new int[] { Array.IndexOf(nums, complement), i };
-                }
-                //add to hash  if not there
-                set.Add(nums[i]);
+                if (map.TryGetValue(sum - input[i], out int j)) { return [i, j]; }
+                map[input[i]] = i;
             }
-            throw new ArgumentException("No two sum solution");
+            return [-1, -1];
         }
-
     }
 }
