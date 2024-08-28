@@ -19,6 +19,7 @@ namespace LeetCode.Bit
             int j =b.Length-1;
             int k = maxLength;
 
+
             while (i>=0 || j>=0)
             {
                 int sum = carry;
