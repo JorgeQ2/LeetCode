@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LeetCode.Arrays;
+using LeetCode.WorkingArry;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Arrays.Tests
+namespace LeetCode.WorkingArry.Tests
 {
     [TestClass]
     public class ResearcherTests
