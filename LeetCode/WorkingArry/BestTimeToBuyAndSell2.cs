@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Arrays
+namespace LeetCode.WorkingArry
+
 {
     public class BestTimeToBuyAndSell2
     {
